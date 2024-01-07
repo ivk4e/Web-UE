@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="main-fieldset">
+        <fieldset >
+            <legend>Profile</legend>
+            <h3>Here you create your profile!</h3>
+              
+          <fieldset>
+              <legend>Personal Info</legend>
+              <form>
+                  <table>
+                    <!-- Mr/Mrs -->
+                    <tr>
+                        <td>
+                            <label for="city">Mr/Mrs</label>
+                        </td>
+        
+                        <td>
+                            <select name="gender" id="gender">
+                            <option value="Mr">Mr</option>
+                            <option value="Mrs">Mrs</option>
+                        </td>
+                    </tr>
+      
+                    <!-- Title -->
+                    <tr>
+                        <td>
+                            <label for="title">Title</label>
+                        </td>
+        
+                        <td>
+                            <input type="text" id="title">
+                        </td>
+                    </tr>
+      
+                    <!-- Name -->
+                    <tr>
+                        <td>
+                            <label for="name">Name</label>
+                        </td>
+        
+                        <td>
+                            <input type="text" id="name">
+                        </td>
+                    </tr>
+      
+                    <!-- Last Name -->
+                    <tr>
+                        <td>
+                            <label for="lname">Last Name</label>
+                        </td>
+        
+                        <td>
+                            <input type="text" id="lname">
+                        </td>
+                    </tr>
+      
+                    <!-- User Name -->
+                    <tr>
+                        <td>
+                            <label for="uname">User Name</label>
+                        </td>
+        
+                        <td>
+                            <input type="text" id="uname">
+                        </td>
+                    </tr>
+      
+                    <!-- Password -->
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                        </td>
+        
+                        <td>
+                            <input type="text" id="password">
+                        </td>
+                    </tr>
+      
+                    <!-- Password Repeat -->
+                    <tr>
+                        <td>
+                            <label for="apassword">Password Repeat</label>
+                        </td>
+        
+                        <td>
+                            <input type="text" id="apassword">
+                        </td>
+                    </tr>
+                  </table>
+              </form>
+          </fieldset>
+            
+          <fieldset>
+              <legend>Bussines Info</legend>
+              <form>
+                  <table>
+                    <!-- Country -->
+                      <tr>
+                          <td>
+                              <label for="country">Country</label>
+                          </td>
+      
+                          <td>
+                              <select name="country">
+                                  <option value="" disabled selected>Please select</option>
+                                  <option>България</option>
+                                  <option>Румъния</option>
+                                  <option>Сърбия</option>
+                                  <option>Гърция</option>
+                              </select>
+                          </td>
+                      </tr>
+                      
+                    <!-- University -->
+                      <tr>
+                          <td>
+                              <label for="university">University</label>
+                          </td>
+      
+                          <td>
+                              <select name="university">
+                                  <option value="" disabled selected>Please select</option>
+                                  <option>Икономически университет - Варна</option>
+                                  <option>Медицински университет - Варна</option>
+                                  <option>Технически университет</option>
+                              </select>
+                          </td>
+                      </tr>
+                    <!-- Add new University -->
+                      <tr>
+                          <td>
+                              <label for="add">Add new University</label>
+                          </td>
+                          
+                          <td>
+                              <input type="checkbox">
+                          </td>
+                      </tr>
+                    
+                    <!-- E-mail -->
+                      <tr>
+                          <td>
+                              <label for="email">E-mail</label>
+                          </td>
+      
+                          <td>
+                              <input type="text">
+                          </td>
+                      </tr>
+                  </table>
+              </form>
+          </fieldset>
+        </fieldset>
+        <input type="submit" name="Submit">
+    </div>
+  </body>
+</html>

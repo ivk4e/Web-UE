@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta
+      name="description"
+      content="This is our website for our organisation about adopting cats."
+    />
+    <meta
+      name="keywords"
+      content="котки, осиновяване, България, обич, уют, щастие, котарак, животни"
+    />
+    <meta http-equiv="content-language" content="bg" />
+    <meta name="robots" content="index, follow" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Осинови коте</title>
+  </head>
+  <body>
+    <!-- Navigation Part -->
+    <div class="main-title">
+      <div class="container">
+        <h1>Осинови Коте</h1>
+      </div>
+    </div>
+
+    <div class="main-navigation">
+      <div class="navigation">
+        <div class="logo-part">
+          <img src="images/cat-title-logo.png" alt="logo" class="image-logo" />
+        </div>
+        <div class="nav-part">
+          <ul class="nav">
+            <li class="nav-item">
+              <a href="index.html" class="nav-item-link">НАЧАЛО</a>
+            </li>
+            <li class="nav-item">
+              <a href="news.html" class="nav-item-link">НОВИНИ</a>
+            </li>
+            <li class="nav-item">
+              <a href="galery.html" class="nav-item-link active">ГАЛЕРИЯ</a>
+            </li>
+            <li class="nav-item">
+              <a href="aboutUs.html" class="nav-item-link">ЗА НАС</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-item-link">КОНТАКТИ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main Part -->
+    <div class="main-container">
+      <div class="main-page">
+        <div class="intro-section">
+          <div class="intro-background">
+            <div class="left-intro-message">
+              <p id="left-msg1">Всяка котка</p>
+              <p id="left-msg2">е различна</p>
+            </div>
+            <div class="img-frame">
+              <img src="images/orange1.png" id="cat-face-right" />
+              <img src="images/exited1.png" id="cat-upper-body" />
+              <img src="images/sitting1.png" id="cat-lower-body" />
+              <img src="images/black1.png" id="cat-face-left" />
+            </div>
+            <div class="right-intro-message">
+              <p id="right-msg1">но всяка от тях</p>
+              <p id="right-msg2">се нуждае от любов</p>
+            </div>
+          </div>
+        </div>
+        <div class="organisation-header container">Нашите котенца</div>
+        <div class="galery-section">
+          <div class="pictures">
+            <div id="left-column-pictures"></div>
+            <div id="right-column-pictures"></div>
+          </div>
+        </div>
+        <div id="overlay">
+          <div id="left-arrow" onclick="changePictureLeft()"></div>
+          <img id="overlay-img" src="" />
+        </div>
+        <div id="exit-btn" onclick="exitOverlay()"></div>
+        <div id="right-arrow" onclick="changePictureRight()"></div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer-part">
+      <div class="top-part-footer">
+        <div class="logo-image-container">
+          <div class="image-part">
+            <img
+              src="images/cat-title-logo.png"
+              alt="logo"
+              class="image-logo"
+            />
+          </div>
+          <div class="text-part">
+            <p class="footer-title">Осинови Коте</p>
+          </div>
+        </div>
+        <div class="navigation-footer">
+          <div class="nav-part-footer">
+            <ul class="nav">
+              <li class="nav-item">
+                <a href="index.html" class="nav-item-link-footer">НАЧАЛО</a>
+              </li>
+              <li class="nav-item">
+                <a href="news.html" class="nav-item-link-footer">НОВИНИ</a>
+              </li>
+              <li class="nav-item">
+                <a href="galery.html" class="nav-item-link-footer">ГАЛЕРИЯ</a>
+              </li>
+              <li class="nav-item">
+                <a href="aboutUs.html" class="nav-item-link-footer">ЗА НАС</a>
+              </li>
+              <li class="nav-item">
+                <a href="contact.html" class="nav-item-link-footer">КОНТАКТИ</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="social-media">
+          <img
+            src="images/square-facebook.svg"
+            alt="facebook"
+            class="social-media-image"
+          />
+          <img
+            src="images/instagram.svg"
+            alt="instagram"
+            class="social-media-image"
+          />
+          <img
+            src="images/pinterest.svg"
+            alt="pinterest"
+            class="social-media-image"
+          />
+          <img
+            src="images/twitter.svg"
+            alt="twitter"
+            class="social-media-image"
+          />
+        </div>
+      </div>
+
+      <div class="down-part-footer">
+        <p class="text-rights">&copy; All Rights Reserved</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
